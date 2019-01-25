@@ -1,0 +1,6 @@
+t1&t2&EQ(t1.relationship,t2.relationship)&IQ(t1.maritalstatus,t2.maritalstatus)
+t1&t2&IQ(t1.relationship,t2.relationship)&EQ(t1.maritalstatus,t2.maritalstatus)
+t1&t2&EQ(t1.occupation,t2.occupation)&IQ(t1.workclass,t2.workclass)
+t1&t2&EQ(t1.relationship,t2.relationship)&EQ(t1.occupation,t2.occupation)&IQ(t1.hoursperweek,t2.hoursperweek)
+t1&t2&EQ(t1.occupation,t2.occupation)&IQ(t1.education,t2.education)
+t1&t2&EQ(t1.workclass,t2.workclass)&EQ(t1.relationship,t2.relationship)&IQ(t1.occupation,t2.occupation)
