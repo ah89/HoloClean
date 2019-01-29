@@ -251,6 +251,7 @@ class DomainEngine:
             cells.extend(app)
         domain_df = pd.DataFrame(data=cells)
         logging.debug('DONE generating initial set of domain values in %.2f', time.clock() - tic)
+        return domain_df
 
         # Run pruned domain values from correlated attributes above through
         # posterior model for a naive probability estimation.
